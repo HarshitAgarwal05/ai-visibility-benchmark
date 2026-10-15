@@ -1,0 +1,9 @@
+node_modules/
+data/
+.env
+.DS_Store
+
+# Your real config is your commercial strategy written down, and the fact sheet
+# is a list of things you can prove. Only the example is tracked.
+config/*.config.js
+!config/example.config.js

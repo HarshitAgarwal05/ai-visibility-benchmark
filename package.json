@@ -1,0 +1,22 @@
+{
+  "name": "ai-visibility-benchmark",
+  "version": "0.1.0",
+  "description": "Measure whether AI answer engines recommend your brand when nobody names it — a longitudinal, config-driven benchmark across ChatGPT, Gemini and Perplexity.",
+  "main": "src/index.js",
+  "bin": { "aivb": "src/index.js" },
+  "scripts": {
+    "start": "node src/index.js --config config/example.config.js",
+    "test": "node --test test/",
+    "demo": "node src/index.js --config config/example.config.js --dry-run"
+  },
+  "keywords": [
+    "ai-visibility", "answer-engine-optimization", "aeo", "geo",
+    "llm-evaluation", "brand-monitoring", "benchmark"
+  ],
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "dependencies": {},
+  "optionalDependencies": {
+    "@google-cloud/bigquery": "^7.0.0"
+  }
+}
